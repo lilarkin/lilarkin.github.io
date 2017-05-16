@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h2, h3, section, p {
+  margin-bottom: 22px;
+}
+
+body, html {
+	font-family: serif;
+}
+
+.center {
+	text-align: center;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em, i {
+	font-style: italic;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+header {
+	text-align: center;
+	font-size: 60px;
+	background-color: #605C54;
+	padding: 40px 0;
+	width: 100%;
+}
+
+.hero {
+  color: white;
+  text-decoration: none;
+}
+
+.hero:hover {
+	background-color: #000;
+}
+
+.head {
+  background-color: #656158;
+}
+
+.gold-background {
+  background-color: #d3a579;
+}
+
+.brown-background {
+	background-color: #E6CFB3;
+}
+
+.grey {
+	color: darken(#656158, 10%);
+}
+
+.section-header {
+	padding: 25px 0;
+	margin: 0;
+}
+
+.section-title {
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+}
+
+.champagne {
+  width: 200px;
+  margin: 0 auto 0 auto;
+}
+
+.pull-right {
+	float: right;
+}
+
+.head-nav {
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #605C54;
+   width: 100%;
+   margin: 0 auto 0 auto;
+}
+
+.aside {
+	height: 100%;
+	width: 300px;
+	padding-top: 20px;
+	margin-left: 10px;
+}
+
+.aside img {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	border-radius: 50%;
+}
+
+.aside-nav {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.aside-nav a, .aside-nav li {
+	padding: 10px 0;
+	color: #605C54;
+	text-decoration: none;
+}
+
+.aside-nav a:hover, .aside-nav li:hover {
+	color: black;
+}
+
+.head {
+  height: 100px;
+  background-color: #605C54;
+}
+
+.contact-form {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.contact-form label {
+	display: inline-block;
+	width: 60px;
+}
+
+.contact-form input {
+	width: 220px;
+	margin-bottom: 10px;
+}
+
+.contact-form textarea {
+	width: 220px;
+	height: 80px;
+	resize: none;
+}
+
+.section-body {
+	padding: 60px;
+	color: #605C54;
+	font-size: 18px;
+}
+
+.section-body h2 {
+	text-align: center;
+	color: darken(#605C54, 20%);
+	font-size: 24px;
+}
+
+.gandc {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	padding-bottom: 25px;
+}
+
+.link-style {
+	color: #D3A579;
+}
+
+.link-style:hover {
+	color: black;
+}
+
+footer {
+	padding: 40px 0;
+	width: 100%;
+	background-color: #605C54;
+	position: relative;
+	bottom: 0;
+	left: 0;
+}
+
+.foot-nav {
+	text-align: center;
+}
+
+.foot-nav li, .foot-nav a {
+	display: inline;
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+.foot-nav li:hover, .foot-nav a:hover {
+	background-color: black;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
