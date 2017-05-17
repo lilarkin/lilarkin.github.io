@@ -71,8 +71,8 @@ h1, h2, h3, section, p {
   margin-bottom: 22px;
 }
 
-body, html {
-	font-family: serif;
+body, html, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: serif !important;
 }
 
 .center {
@@ -153,19 +153,23 @@ header {
 */
 
 .navbar {
-  color: white !important;
   background-color: #656158;
+	color: #656158;
   border: none;
+	height: 70px;
+	border-radius: none;
 }
+
 
 .navbar-default .navbar-nav > li > a {
   color: #E6CFB3;
   display: inline;
+	margin: 10px auto;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color: darken(#656158, 5%);
-  color: #d3a579;
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: darken(#656158, 5%);
+		background-color: darken(#656158, 5%) !important;
 }
 
 #logo-image {
