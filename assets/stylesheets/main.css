@@ -146,15 +146,11 @@ header {
 	float: right;
 }
 
-/*===============================================================
-    NAVBAR 
-================================================================*/
-
-#logo-image {
-  height: 25px;
-}
-
-
+/*
+  ========================================
+  Navbar
+  ========================================
+*/
 
 .navbar {
   color: white !important;
@@ -163,23 +159,35 @@ header {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: #E6CFB3;
+  display: inline;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: darken(#656158, 5%);
-  color: white;
+  color: #d3a579;
 }
 
-.head-nav {
-  list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: #605C54;
-   width: 100%;
-   margin: 0 auto 0 auto;
+#logo-image {
+	height: 40px;
 }
+
+.nav {
+	text-align: center;
+}
+
+.nav li, .nav a {
+	display: inline;
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+/*
+  ========================================
+  Aside
+  ========================================
+*/
 
 .aside {
 	height: 100%;
@@ -209,6 +217,8 @@ header {
 .aside-nav a:hover, .aside-nav li:hover {
 	color: black;
 }
+
+
 
 .head {
   height: 100px;
