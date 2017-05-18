@@ -89,12 +89,21 @@ em, i {
   ========================================
 */
 
+body {
+	background-image: url("assets/images/logo.jpg");
+	background-size: cover;
+}
+
 header {
 	text-align: center;
 	font-size: 60px;
 	background-color: #605C54;
 	padding: 40px 0;
 	width: 100%;
+}
+
+.center {
+	text-align: center;
 }
 
 .head {
@@ -188,7 +197,7 @@ header {
 
 .aside {
 	height: 100%;
-	width: 300px;
+	width: 250px;
 	padding-top: 20px;
 	margin-left: 10px;
 }
@@ -307,3 +316,4 @@ footer {
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+
