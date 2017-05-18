@@ -75,10 +75,6 @@ body, html, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 	font-family: serif !important;
 }
 
-.center {
-	text-align: center;
-}
-
 strong {
 	font-weight: bold;
 }
@@ -99,15 +95,6 @@ header {
 	background-color: #605C54;
 	padding: 40px 0;
 	width: 100%;
-}
-
-.hero {
-  color: white;
-  text-decoration: none;
-}
-
-.hero:hover {
-	background-color: #000;
 }
 
 .head {
@@ -156,15 +143,16 @@ header {
   background-color: #656158;
 	color: #656158;
   border: none;
-	height: 70px;
-	border-radius: none;
+	height: 80px;
+	border-radius: 0px;
+	margin-bottom: 0px;
 }
 
 
 .navbar-default .navbar-nav > li > a {
   color: #E6CFB3;
   display: inline;
-	margin: 10px auto;
+	margin: 20px auto;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -174,10 +162,15 @@ header {
 
 #logo-image {
 	height: 40px;
+	margin-left: 20px;
 }
 
 .nav {
 	text-align: center;
+}
+
+.navbar-nav {
+  margin: 20px auto;
 }
 
 .nav li, .nav a {
