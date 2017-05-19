@@ -72,7 +72,7 @@ h1, h2, h3, section, p {
 }
 
 body, html, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-	font-family: serif !important;
+	font-family: "Times New Roman", serif !important;
 }
 
 strong {
@@ -90,7 +90,7 @@ em, i {
 */
 
 body {
-	background-image: url("assets/images/logo.jpg");
+	background: white url("images/logo.jpg");
 	background-size: cover;
 }
 
@@ -224,8 +224,6 @@ header {
 	color: black;
 }
 
-
-
 .head {
   height: 100px;
   background-color: #605C54;
@@ -279,6 +277,11 @@ header {
 	color: black;
 }
 
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -80px;
+}
+
 footer {
 	padding: 40px 0;
 	width: 100%;
@@ -286,6 +289,11 @@ footer {
 	position: relative;
 	bottom: 0;
 	left: 0;
+}
+
+footer-text {
+	display: inline-block;
+	margin-left: 20px;
 }
 
 .foot-nav {

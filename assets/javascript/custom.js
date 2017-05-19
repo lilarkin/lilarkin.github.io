@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     aside = document.getElementsByClassName('aside')[0]
     sectionBody = document.getElementsByClassName('section-body')[0]
 
-    sectionBody.style.width = (width - 300) + 'px'
+    sectionBody.style.width = (width - 250) + 'px'
     aside.style.minHeight = sectionBody.offsetHeight + 25 + 'px'
   }
 
