@@ -85,7 +85,7 @@ em, i {
 
 /*
   ========================================
-  Home
+  All Pages
   ========================================
 */
 
@@ -298,6 +298,10 @@ footer-text {
 
 #email {
 	margin-left: 30px;
+}
+
+#email-text-color {
+	color: white;
 }
 
 .foot-nav {
