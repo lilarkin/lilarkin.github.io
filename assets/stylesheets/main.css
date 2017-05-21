@@ -229,27 +229,6 @@ header {
   background-color: #605C54;
 }
 
-.contact-form {
-	margin-top: 50px;
-	text-align: center;
-}
-
-.contact-form label {
-	display: inline-block;
-	width: 60px;
-}
-
-.contact-form input {
-	width: 220px;
-	margin-bottom: 10px;
-}
-
-.contact-form textarea {
-	width: 220px;
-	height: 80px;
-	resize: none;
-}
-
 .section-body {
 	padding: 60px;
 	color: #605C54;
