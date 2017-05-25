@@ -105,7 +105,7 @@ body {
 */
 
 .gold-background {
-  background-color: #d3a579;
+  background-color: #318543;
 	color: darken(#656158, 10%) !important;
 }
 
@@ -209,7 +209,7 @@ body {
 }
 
 .light-background {
-	background-color: #E6CFB3;
+	background-color: #C0A7AC;
 }
 
 /*
@@ -289,12 +289,12 @@ footer-text {
 */
 
 .clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
