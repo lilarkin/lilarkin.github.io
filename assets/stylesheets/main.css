@@ -90,33 +90,23 @@ em, i {
 */
 
 body {
-	background: white url("images/logo.jpg");
+	background: white url("assets/images/logo.jpg");
 	background-size: cover;
-}
-
-header {
-	text-align: center;
-	font-size: 60px;
-	background-color: #605C54;
-	padding: 40px 0;
-	width: 100%;
 }
 
 .center {
 	text-align: center;
 }
 
-.head {
-  background-color: #656158;
-}
+/*
+  ========================================
+  Header
+  ========================================
+*/
 
 .gold-background {
   background-color: #d3a579;
 	color: darken(#656158, 10%) !important;
-}
-
-.brown-background {
-	background-color: #E6CFB3;
 }
 
 .section-header {
@@ -209,7 +199,6 @@ header {
 	height: 100%;
 	width: 250px;
 	padding-top: 20px;
-	margin-left: 10px;
 }
 
 .aside img {
@@ -219,25 +208,15 @@ header {
 	border-radius: 50%;
 }
 
-.aside-nav {
-	text-align: center;
-	padding: 20px 0;
+.light-background {
+	background-color: #E6CFB3;
 }
 
-.aside-nav a, .aside-nav li {
-	padding: 10px 0;
-	color: #605C54;
-	text-decoration: none;
-}
-
-.aside-nav a:hover, .aside-nav li:hover {
-	color: black;
-}
-
-.head {
-  height: 100px;
-  background-color: #605C54;
-}
+/*
+  ========================================
+  Section Body
+  ========================================
+*/
 
 .section-body {
 	padding: 60px;
@@ -262,7 +241,9 @@ header {
 .wrapper {
   min-height: 100%;
   margin-bottom: -80px;
-}/*
+}
+
+/*
   ========================================
   Footer
   ========================================
@@ -300,6 +281,12 @@ footer-text {
 .foot-nav li:hover, .foot-nav a:hover {
 	background-color: black;
 }
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
 
 .clearfix:after {
      visibility: hidden;
