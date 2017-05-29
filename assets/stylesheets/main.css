@@ -189,6 +189,10 @@ body {
 	margin-right: -30px;
 }
 
+#experience-link {
+	margin-left: -20px;
+}
+
 /*
   ========================================
   Aside
@@ -218,6 +222,14 @@ body {
   ========================================
 */
 
+/*body {
+  background-color: white;
+	background-image: url("assets/images/logo.png") !important;
+	background-size: cover;
+  height: 100%;
+  margin: 0;
+}*/
+
 .section-body {
 	padding: 60px;
 	color: #605C54;
@@ -231,14 +243,6 @@ body {
 	text-align: center;
 	color: darken(#605C54, 20%);
 	font-size: 24px;
-}
-
-.link-style {
-	color: #D3A579;
-}
-
-.link-style:hover {
-	color: black;
 }
 
 .wrapper {
