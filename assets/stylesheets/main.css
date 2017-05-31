@@ -132,6 +132,11 @@ body {
 	color: #4C483F !important;
 }
 
+#LLL:hover{
+	color: #DEC7CC !important;
+	text-decoration: none;
+}
+
 .champagne {
   width: 200px;
   margin: 0 auto 0 auto;
@@ -283,9 +288,14 @@ footer-text {
 	color: black;
 }
 
-#email-text-color {
+#email-text {
 	color: #DEC7CC;
 	margin-left: 5px
+}
+
+#email-text:hover {
+	color: #4C483F !important;
+	text-decoration: none;
 }
 
 /*
