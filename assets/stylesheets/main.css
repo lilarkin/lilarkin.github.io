@@ -318,3 +318,14 @@ footer-text {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+/*
+  ========================================
+  Work Samples Page
+  ========================================
+*/
+
+.panel-title:hover {
+	color: #318543;
+	text-decoration: none !important;
+}
+
