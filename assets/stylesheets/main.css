@@ -170,7 +170,7 @@ body {
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: none;
+    border: none;
 }
 
 #logo-image {
