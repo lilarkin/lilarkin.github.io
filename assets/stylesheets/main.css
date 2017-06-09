@@ -173,6 +173,10 @@ body {
     border: none;
 }
 
+/*div#myNavbar.collapse.navbar-collapse {
+	margin-bottom: -1px;
+}*/
+
 #logo-image {
 	height: 40px;
 	margin-left: 40px;
