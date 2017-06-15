@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+$(document).ready(function() {
   function setAsideHeight() {
     navbarOffset = 80;
     nameHeaderOffset = 75;
