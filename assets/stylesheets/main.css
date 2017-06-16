@@ -90,8 +90,9 @@ em, i {
 */
 
 body {
-	background: white url("assets/images/logo.jpg");
-	background-size: cover !important;
+	background: none;
+	background-image: url("../images/logo.jpg");
+	background-size: cover;
 	margin-bottom: 60px;
 }
 
@@ -105,10 +106,10 @@ html {
 }
 
 .container {
-     padding-right: 0; 
-     padding-left: 0; 
-     margin-right: 0; 
-     margin-left: 0; 
+		padding-right: 0; 
+		padding-left: 0; 
+		margin-right: 0; 
+		margin-left: 0; 
 }
 
 /*
@@ -240,13 +241,13 @@ html {
   ========================================
 */
 
-body {
+/*body {
   background-color: white;
 	background-image: url(assets/images/logo.jpg) !important;
 	background-size: cover !important;
   height: 100%;
   margin: 0;
-}
+}*/
 
 .section-body {
 	padding: 60px;
