@@ -69,10 +69,12 @@ table {
 
 h1, h2, h3, p {
   margin-bottom: 22px;
+	opacity: 1;
 }
 
 body, html, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 	font-family: "Times New Roman", serif !important;
+	
 }
 
 strong {
@@ -91,11 +93,12 @@ em, i {
 
 body {
 	background: none;
-	/*background-image: url("../images/logo.jpg");
+	background-image: url("../images/logo.jpg");
 	background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
+	height: 100vh;
 	margin-bottom: 60px;
 }
 
@@ -249,24 +252,17 @@ html {
   ========================================
 */
 
-/*body {
-  background-color: white;
-	background-image: url(assets/images/logo.jpg) !important;
-	background-size: cover !important;
-  height: 100%;
-  margin: 0;
-}*/
-
 .section-body {
 	padding: 60px;
-	color: #605C54;
+	color:black;
 	font-size: 18px;
-	background-image: url("../images/logo.jpg");
+	/*background-image: url("../images/logo.jpg");
 	background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 	height: 100vh;
+	opacity: 0.5;*/
 }
 
 .section-body h2 {
