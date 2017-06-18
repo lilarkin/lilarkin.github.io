@@ -147,7 +147,7 @@ html {
 }
 
 #LLL {
-	color: #4C483F !important;
+	color:black;
 }
 
 #LLL:hover{
@@ -186,10 +186,6 @@ html {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: none;
 }
-
-/*div#myNavbar.collapse.navbar-collapse {
-	margin-bottom: -1px;
-}*/
 
 #logo-image {
 	height: 40px;
