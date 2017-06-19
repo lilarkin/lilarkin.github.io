@@ -93,13 +93,25 @@ em, i {
 
 body {
 	background: none;
-	background-image: url("../images/logo.jpg");
+	position: relative;
+	/*background-image: url("../images/logo.jpg");
 	background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
-	height: 100vh;
+	height: 100vh;*/
 	margin-bottom: 60px;
+}
+
+.section-body::before {
+	content: "";
+	position: absolute;
+	top: 0; right: 0;
+	bottom: 0; left: 0;
+	background: url("../images/logo.jpg") no-repeat top center;
+	background-size: cover;
+	opacity: 0.5;
+	height: 100vh;
 }
 
 html {
