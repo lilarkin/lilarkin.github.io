@@ -325,3 +325,17 @@ footer-text {
 	border-radius: 4px;
 	background-color: #DEC7CC
 }
+
+/*
+  ========================================
+  Experience Page
+  ========================================
+*/
+
+.title, .dexcription {
+	float: left;
+}
+
+.location, .date {
+	float: right;
+}
