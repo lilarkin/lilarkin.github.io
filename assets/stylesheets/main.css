@@ -332,10 +332,11 @@ footer-text {
   ========================================
 */
 
-.title, .dexcription {
+.title, .description {
 	float: left;
 }
 
 .location, .date {
 	float: right;
 }
+
