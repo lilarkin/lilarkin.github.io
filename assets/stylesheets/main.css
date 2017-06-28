@@ -332,11 +332,21 @@ footer-text {
   ========================================
 */
 
-.title, .description , .list {
+.title, .description, .list, .school {
 	float: left;
 }
 
 .location, .date {
 	float: right;
+}
+
+ul {
+	margin-bottom: 20px;
+}
+
+
+/*why in the fucking fuck is this displaying vassar as having a before????*/
+.row::before{
+	display: none;
 }
 
