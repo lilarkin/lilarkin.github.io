@@ -240,8 +240,10 @@ html {
 .aside img {
 	display: block;
 	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
 	width: 200px;
-	border-radius: 50%;
+	border-radius: 25%;
 }
 
 .light-background {
