@@ -325,7 +325,12 @@ footer-text {
 	color: black;
 	border: #4B4763 solid 1px;
 	border-radius: 4px;
-	background-color: #DEC7CC
+	background-color: #DEC7CC;
+	opacity: 0.75;
+}
+
+.panel-heading {
+	margin: 0, 10px;
 }
 
 /*
@@ -348,7 +353,7 @@ ul {
 
 
 /*why in the fucking fuck is this displaying vassar as having a before????*/
-.row::before{
+.row::before {
 	display: none;
 }
 
