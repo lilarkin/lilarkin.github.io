@@ -91,11 +91,11 @@ em, i {
   ========================================
 */
 
-body::before {
+/*body::before {
 	background: none;
 	position: relative;
 	margin-bottom: 60px;
-}
+}*/
 
 .section-body::before {
 	content: "";
@@ -161,11 +161,6 @@ html {
 	text-decoration: none;
 }
 
-.champagne {
-  width: 200px;
-  margin: 0 auto 0 auto;
-}
-
 /*
   ========================================
   Navbar
@@ -211,6 +206,10 @@ html {
 	color: white;
 	text-decoration: none;
 	padding: 0 10px;
+}
+
+.navbar-toggle {
+	background-color: #DEC7CC;
 }
 
 #linkedin {
@@ -318,7 +317,6 @@ footer-text {
 
 .panel-title:hover {
 	color: #318543;
-	text-decoration: none !important;
 }
 
 .panel-default>.panel-heading {
@@ -329,8 +327,13 @@ footer-text {
 	opacity: 0.75;
 }
 
-.panel-heading {
-	margin: 0, 10px;
+.panel-group {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.panel-title>a {
+	text-decoration: none;
 }
 
 /*
@@ -351,7 +354,6 @@ ul {
 	margin-bottom: 20px;
 }
 
-
 /*why in the fucking fuck is this displaying vassar as having a before????*/
 .row::before {
 	display: none;
@@ -371,5 +373,25 @@ ul {
 	padding-bottom: 20px;
 	width: 500px;
 	border-radius: 25%;
+	opacity: 1.0 !important;
 }
 
+@media only screen and (max-width: 585px) {
+  #main-img {
+  	width: 300px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  #main-img {
+  	width: 200px;
+  }
+}
+
+.last-p {
+	margin-bottom: 60px;
+}
+
+.home-aside {
+	margin-top: -16px;
+}
