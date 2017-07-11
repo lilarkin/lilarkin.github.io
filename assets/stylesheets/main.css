@@ -91,12 +91,6 @@ em, i {
   ========================================
 */
 
-/*body::before {
-	background: none;
-	position: relative;
-	margin-bottom: 60px;
-}*/
-
 .section-body::before {
 	content: "";
 	position: absolute;
@@ -106,6 +100,7 @@ em, i {
 	background-size: cover;
 	opacity: 0.2;
 	height: 100vh;
+	background-repeat: repeat-y;
 }
 
 html {
@@ -191,6 +186,7 @@ html {
 #logo-image {
 	height: 40px;
 	margin-left: 40px;
+	border-radius: 10%;
 }
 
 .nav {
@@ -263,8 +259,7 @@ html {
 
 .section-body h2 {
 	text-align: center;
-	color: darken(#605C54, 20%);
-	font-size: 24px;
+	font-size: 25px;
 }
 
 /*
@@ -297,7 +292,7 @@ footer-text {
 }
 
 #email-text:hover {
-	color: #4C483F !important;
+	color: #97EBA9;
 	text-decoration: none;
 }
 
@@ -359,7 +354,6 @@ ul {
 	display: none;
 }
 
-
 /*
   ========================================
   Home Page
@@ -370,25 +364,26 @@ ul {
 	display: block;
 	margin: 0 auto;
 	margin-top: 20px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 	width: 500px;
 	border-radius: 25%;
+	border: #4B4763 solid 3px;
 	opacity: 1.0 !important;
 }
 
-@media only screen and (max-width: 585px) {
+@media only screen and (max-width: 600	px) {
   #main-img {
   	width: 300px;
   }
 }
 
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 350px) {
   #main-img {
   	width: 200px;
   }
 }
 
-.last-p {
+.bottom-margin {
 	margin-bottom: 60px;
 }
 
