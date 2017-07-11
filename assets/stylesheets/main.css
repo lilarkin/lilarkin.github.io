@@ -29,9 +29,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-}
-ol, ul {
-	list-style: none;
+	background: url('../images/logo.jpg') top center;
+	background-size: cover;
+	height: 100%;
 }
 blockquote, q {
 	quotes: none;
@@ -91,7 +91,7 @@ em, i {
   ========================================
 */
 
-.section-body::before {
+/*.section-body {
 	content: "";
 	position: absolute;
 	top: 0; right: 0;
@@ -101,11 +101,12 @@ em, i {
 	opacity: 0.2;
 	height: 100vh;
 	background-repeat: repeat-y;
-}
+}*/
+
 
 html {
   position: relative;
-  min-height: 100%;
+  height: 100%;
 }
 
 .center {
@@ -161,22 +162,18 @@ html {
   Navbar
   ========================================
 */
-
 .navbar {
-  background-color: #4B4763;
+	background-color: #4B4763;
 	background: linear-gradient(to right bottom, #4B4763, #7E7A96);
 	color: #656158;
   border: none;
-	height: 80px;
+	min-height: 80px;
 	border-radius: 0px;
 	margin-bottom: 0px;
 }
 
-
 .navbar-default .navbar-nav > li > a {
   color: #DEC7CC;
-  display: inline;
-	margin: 20px auto;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -185,23 +182,33 @@ html {
 
 #logo-image {
 	height: 40px;
-	margin-left: 40px;
+	margin-left: 20px;
 	border-radius: 10%;
 }
 
 .nav {
 	text-align: center;
 }
-
-.navbar-nav {
-  margin: 20px auto;
+.nav>li>a>img {
+   vertical-align: middle;
 }
 
-.nav li, .nav a {
-	display: inline;
+.navbar-brand {
+	padding: 20px 15px 15px;
+}
+
+.navbar-nav>li>a {
+	line-height: 80px;
+}
+
+.nav>li>a {
 	color: white;
 	text-decoration: none;
 	padding: 0 10px;
+}
+
+.navbar-nav>li>a {
+	line-height: 80px;
 }
 
 .navbar-toggle {
@@ -212,14 +219,6 @@ html {
 	height: 36px;
 }
 
-#github {
-	margin-right: -30px;
-}
-
-#experience-link {
-	margin-left: -20px;
-}
-
 /*
   ========================================
   Aside
@@ -227,9 +226,12 @@ html {
 */
 
 .aside {
-	height: 100vh;
-	min-height: 100% !important;
+	/*height: 100vh;
+	min-height: 100% !important;*/
 	padding-top: 20px;
+	padding-bottom: 200px;
+	/*overflow-y: auto;*/
+	/*height:100%;*/
 }
 
 .aside img {
@@ -252,11 +254,18 @@ html {
 */
 
 .section-body {
+
+	background-image: url('../images/logo.jpg');
+}
+
+.section-body-content {
 	padding: 60px;
 	color:black;
 	font-size: 18px;
+	background-color: rgba(255,255,255,.8);
+	height: 100%;
+	min-height: 950px;
 }
-
 .section-body h2 {
 	text-align: center;
 	font-size: 25px;
@@ -297,7 +306,7 @@ footer-text {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -349,11 +358,6 @@ ul {
 	margin-bottom: 20px;
 }
 
-/*why in the fucking fuck is this displaying vassar as having a before????*/
-.row::before {
-	display: none;
-}
-
 /*
   ========================================
   Home Page
@@ -367,7 +371,6 @@ ul {
 	margin-bottom: 20px;
 	width: 500px;
 	border-radius: 25%;
-	border: #4B4763 solid 3px;
 	opacity: 1.0 !important;
 }
 
